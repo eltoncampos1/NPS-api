@@ -19,4 +19,14 @@ describe('Surveys', () => {
         expect(response.body).toHaveProperty('id');
     });
 
+    it('Should be able to get all surveys', async () => {
+        await request(app).post('/surveys').send({
+            title: "survey title2",
+            description: 'survey description2',
+        });
+        
+        const response = await request(app).get('/surveys');
+
+        expect(response.body.length).toBe(2);
+    })
 });
