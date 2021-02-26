@@ -12,7 +12,14 @@ class SendMailController {
         const sursveysRepository = await getCustomRepository(SurveysRepository);
         const surveysUserRepositoy = await getCustomRepository(SurveysUserRepository);
 
-        // const userAlreadyExists
+        const userAlreadyExists = await usersRepository.findOne({ email });
+
+        if (!userAlreadyExists) {
+            return response.status(400).json({
+                error: 'User does not exists'
+            });
+        }
+
     }
 }
 
