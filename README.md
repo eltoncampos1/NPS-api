@@ -1,8 +1,12 @@
-# Projeto Desenvolvido durante a Next Level Week #04
+# Project Developed during Next Level Week # 04
 
-## Api de cadastro e NPS
+## Registration and NPS Api
 
-## Regas de negócio
+</br>
 
-- O usuário deve se cadastrar usando nome e e-mail;
-- o usuário não pode se cadastrar com um e-mail já cadastrado;
+## Functional Rules
+
+- User must register using name and email;
+- The user cannot register with an already registered email;
+- The user must be able to create surveys;
+- The user must be able to list all surveys;
