@@ -28,7 +28,14 @@ class SendMailController {
             });
         }
 
-        
+        const surveyUser = surveysUserRepositoy.create({
+            user_id: userAlreadyExists.id,
+            survey_id,
+        })
+
+        await surveysUserRepositoy.save(surveyUser);
+
+        return response.json(surveyUser);
     }
 }
 
