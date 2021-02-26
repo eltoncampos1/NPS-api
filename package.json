@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd transpile-only --ignore-watch node_modules src/server.ts",
+    "dev": "tsnd --ignore-watch node_modules src/server.ts",
     "typeorm": "tsnd ./node_modules/typeorm/cli.js",
-    "test": "set NODE_ENV=test jest"
+    "test": "set NODE_ENV=test&&jest"
   },
   "dependencies": {
     "express": "^4.17.1",
