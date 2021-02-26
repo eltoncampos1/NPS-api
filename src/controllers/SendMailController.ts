@@ -20,6 +20,15 @@ class SendMailController {
             });
         }
 
+        const surveyAlreadyExists = await sursveysRepository.findOne({ id: survey_id });
+
+        if (!surveyAlreadyExists) {
+             return response.status(400).json({
+                error: 'Survey does not exists'
+            });
+        }
+
+        
     }
 }
 
