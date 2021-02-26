@@ -15,7 +15,8 @@ describe('Surveys', () => {
             description: 'survey description',
         });
 
-        expect(response.status).toBe(201)
+        expect(response.status).toBe(201);
+        expect(response.body).toHaveProperty('id');
     });
 
 });
