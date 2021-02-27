@@ -133,7 +133,7 @@ START SERVER
 RUN MIGRATIONS
 
 ```sh
-    npm or yarn typeorm
+    npm or yarn typeorm migrations:run
 ```
 
 TESTS
