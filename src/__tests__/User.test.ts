@@ -10,7 +10,7 @@ describe('Users', () => {
         await connection.runMigrations();
     });
 
-        afterAll(async() => {
+    afterAll(async() => {
         const conn = getConnection();
         await conn.dropDatabase();
         await conn.close();
