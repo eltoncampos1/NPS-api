@@ -47,6 +47,11 @@ This section should list any major frameworks that you built your project using.
 - [Typescript](https://www.typescriptlang.org)
 - [NodeJS](https://nodejs.org/en/)
 
+### Used to test the application
+
+- [Insomnia](https://insomnia.rest)
+- [Beekeeper](https://www.beekeeperstudio.io)
+
 ### Dependencies
 
 ```json
@@ -117,6 +122,24 @@ npm install -g yarn
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+
+START SERVER
+
+```sh
+    npm or yarn dev
+```
+
+RUN MIGRATIONS
+
+```sh
+    npm or yarn typeorm
+```
+
+TESTS
+
+```sh
+    npm or yarn test
+```
 
 ### Create an user endpoint
 
