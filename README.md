@@ -51,6 +51,7 @@ This section should list any major frameworks that you built your project using.
 
 - [Insomnia](https://insomnia.rest)
 - [Beekeeper](https://www.beekeeperstudio.io)
+- [ethereal](https://ethereal.email)
 
 ### Dependencies
 
