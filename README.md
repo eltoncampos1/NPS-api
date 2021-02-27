@@ -1,6 +1,5 @@
 # Project Developed during Next Level Week # 04
 
-![Elton](https://img.shields.io/david/dev/eltoncampos1/NPS-api)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
