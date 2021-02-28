@@ -30,7 +30,7 @@
 
 ## About The Project
 
-The project is an application (The NPS® or Net Promoter Score is a metric developed to measure customer loyalty levels, created in 2003 by Bain & Company consultant, Fred Reichheld, in collaboration with Satmetrix).
+The project is an NPS application (The NPS® or Net Promoter Score is a metric developed to measure customer loyalty levels, created in 2003 by Bain & Company consultant, Fred Reichheld, in collaboration with Satmetrix).
 
 ## Functional Rules
 
